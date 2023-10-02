@@ -1,0 +1,134 @@
+#grad1 {
+  background: linear-gradient(rgb(25, 20, 14), rgb(28, 120, 45));
+}
+/* Business main Skeleton Sections */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background: #29c1c4;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+header {
+  letter-spacing: 4px;
+  background-color: black; /* for browsers that dont support gradients*/
+  background-image: conic-gradient(
+    rgb(24, 232, 24) 45deg,
+    rgb(65, 63, 63) 125deg,
+    black 180deg,
+    rgb(65, 63, 63) 235deg,
+    rgb(24, 232, 24) 300deg
+  );
+  padding-bottom: 10px;
+}
+h1 {
+  width: 100%;
+}
+.title {
+  color: whitesmoke;
+  text-shadow: 4px 2px 5px rgb(125, 8, 171);
+}
+h2 {
+  width: 100%;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.blue {
+  box-shadow: -6px 6px 10px;
+}
+
+section {
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+#about {
+  text-align: center;
+}
+/* CSS CARDS */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #ccc;
+  background-color: rgb(24, 232, 24);
+  margin: 25px;
+  padding: 25px;
+  box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-card {
+  border: 1px solid #ccc;
+  background-color: rgb(24, 232, 24);
+  margin: 25px;
+  padding: 25px;
+  box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icons {
+  font-size: 8em;
+  padding: 25px;
+}
+
+.button,
+.container {
+  margin: 10px;
+}
+
+button,
+.button {
+  background: rgb(72, 0, 72);
+  border: 0;
+  border-radius: 50%;
+  color: blanchedalmond;
+  padding: 10px;
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.blue {
+  background-image: radial-gradient(purple, white, lime, black);
+  box-shadow: 11px -6px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* table data Gamers by Region */
+td {
+  padding: 10px;
+}
+table {
+  margin: auto;
+}
+/* CSS ID */
+#my-order {
+  background-color: #29c1c4;
+  padding: 25px;
+  display: none;
+}
+
+/* Footer */
+.footer {
+  padding: 30px;
+  background: grey;
+}
+
+@media screen and (min-width: 50em) {
+  .card {
+    flex-basis: 325px;
+  }
+  header h1 {
+    font-size: 5em;
+  }
+}

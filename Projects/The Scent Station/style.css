@@ -1,0 +1,13 @@
+@charset "utf-8";
+.container-fluid {
+    background-image: url("images/Untitled (5).png");
+    background-repeat: repeat;
+    background-size: cove;
+    background-origin: border-box;
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(90deg,rgba(213,27,204,1.00) 0%,rgba(255,255,255,1.00) 51.09%,rgba(213,27,204,1.00) 98.03%);
+    background-image: -moz-linear-gradient(90deg,rgba(213,27,204,1.00) 0%,rgba(255,255,255,1.00) 51.09%,rgba(213,27,204,1.00) 98.03%);
+    background-image: -o-linear-gradient(90deg,rgba(213,27,204,1.00) 0%,rgba(255,255,255,1.00) 51.09%,rgba(213,27,204,1.00) 98.03%);
+    background-image: linear-gradient(0deg,rgba(213,27,204,1.00) 0.00%,rgba(255,255,255,1.00) 51.09%,rgba(213,27,204,1.00) 98.03%);
+}

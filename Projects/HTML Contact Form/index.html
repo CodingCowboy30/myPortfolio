@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Form</title>
+</head>
+<body>
+   <div class="container">
+    <form action="" method="POST">
+      <!-- Input Name -->
+        <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Jane Doe" tabindex="1" required>
+        </div>
+        <!-- Input E-mail -->
+        <div class="form-group">
+            <label for="e-mail" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="e-mail" placeholder="123JaneDoe@email.com" tabindex="2" required>
+        </div>
+        <!-- Input Submit -->
+        <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Hello there" tabindex="3" required>
+        </div>
+        <!-- Text Area -->
+        <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" cols="50" placeholder="Type Message" tabindex="3"></textarea>
+        </div>
+    
+        <!-- submit button -->
+        <div>
+            <button class="btn" type="btn">Send Message!</button>
+        </div>
+    </form>
+   </div>
+</body>
+</html>

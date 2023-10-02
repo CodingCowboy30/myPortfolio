@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="text/css" />
+		<script></script>
+		<title>TM Gaming</title>
+		<style>
+			#grad1 {
+				background: linear-gradient(rgb(25, 20, 14), rgb(28, 120, 45));
+			}
+			/* Business main Skeleton Sections */
+			body {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				text-align: center;
+				background-image: url(https://media.tenor.com/AW_4gupjfHQAAAAC/hachubby-rokubop.gif);
+				background-size: contain;
+			}
+			nav {
+				height: 50px;
+			}
+			a {
+				text-decoration: none;
+				color: white;
+			}
+
+			a:hover {
+				color: rgb(239, 32, 32);
+				font-size: 20px;
+			}
+			ul {
+				display: flex;
+				justify-content: center;
+				margin: 0;
+			}
+			li {
+        display: inline;
+				list-style: none;
+				padding: 20px;
+			}
+
+			h2,
+			p {
+				color: ghostwhite;
+			}
+
+			header {
+				letter-spacing: 6px;
+				background-color: black; /* for browsers that dont support gradients*/
+				background-image: conic-gradient(
+					rgb(24, 232, 24) 45deg,
+					rgb(65, 63, 63) 125deg,
+					black 180deg,
+					rgb(65, 63, 63) 235deg,
+					rgb(24, 232, 24) 300deg
+				);
+				padding-bottom: 10px;
+				box-shadow: 0px 0px 10px 10px #446768;
+			}
+			h1 {
+				width: 100%;
+			}
+			.title {
+				color: whitesmoke;
+				text-shadow: 4px 2px 5px rgb(125, 8, 171);
+			}
+
+			.subtitle {
+				background-color: crimson;
+				border-radius: 100px;
+				display: flex;
+        flex-wrap: wrap;
+				justify-content: center;
+			}
+
+			h2 {
+				width: 100%;
+				font-size: 2.5em;
+				display: flex;
+				justify-content: center;
+			}
+
+			td {
+				color: ghostwhite;
+			}
+
+			section {
+				padding: 30px;
+				margin-bottom: 40px;
+			}
+
+			.first-section {
+				background-color: rgba(26, 97, 159, 0.607);
+				padding: 0%;
+			}
+
+			#about {
+				text-align: center;
+			}
+			/* CSS CARDS */
+			.container {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+			}
+			.card {
+				border: 1px solid #ccc;
+				background-color: rgb(24, 232, 24);
+				margin: 50px;
+				padding: 50px;
+				box-shadow: 16px -10px 10px 1dvh rgb(137, 80, 175);
+			}
+
+			.footer-card {
+				border: 1px solid #ccc;
+				background-color: rgb(24, 232, 24);
+				margin: 25px;
+				padding: 25px;
+				box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.3);
+			}
+
+      footer{
+        color:white
+      }
+
+			.icons {
+				font-size: 8em;
+				padding: 25px;
+			}
+
+			.button,
+			.container {
+				margin: 10px;
+			}
+
+			button,
+			.button {
+				background: rgb(72, 0, 72);
+				border-style: dashed;
+				border-width: 50px;
+				border-radius: 50px;
+				color: blanchedalmond;
+				padding: 10px;
+				width: 65%;
+				margin-bottom: 10px;
+			}
+
+			button:hover {
+				cursor: pointer;
+				background-color: #ccc;
+				color: black;
+				font-size: 20px;
+			}
+
+			.blue,
+			.container {
+				background-image: radial-gradient(purple, white, lime, black);
+				box-shadow: 16px 16px 4px 10px rgba(0, 0, 0, 0.3);
+			}
+
+			.staygaming {
+				color: black;
+			}
+			
+			
+			/* table data Gamers by Region */
+			td {
+				padding: 10px;
+			}
+			table {
+				margin: auto;
+			}
+			/* CSS ID */
+			#my-order {
+				background-color: #29c1c4;
+				padding: 25px;
+				display: none;
+			}
+
+			/* Footer */
+			.footer {
+				padding: 30px;
+				background: rgba(179, 17, 201, 0.377);
+			}
+
+			h3 {
+				color: aliceblue;
+			}
+      @media screen and (max-width: 600px) {
+				.card {
+					flex-basis: 325px;
+				}
+				header h1 {
+					font-size: 5em;
+				}
+				nav {
+          height:auto
+        }
+        
+					li{
+            display: block;
+          }
+				
+				a:hover {
+					color: rgb(239, 32, 32);
+					background-color: grey;
+					font-size: 10px;
+				}
+      }
+		</style>
+	</head>
+	<nav>
+		<ul>
+			<li><a class="nav-links" href="#">Welcome</a></li>
+			<li><a class="nav-links" href="#" target="_blank">About Us</a></li>
+			<li><a class="nav-links" href="#">Game Genres</a></li>
+			<li><a class="nav-links" href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<body>
+		<header class="title">
+			<h1>TM Games</h1>
+			<h3 class="subtitle">GAMING TO THE T</h3>
+		</header>
+		<section class="first-section">
+			<h2>WELCOME:</h2>
+
+			<p>
+				Welcome to TM Games! Home of where we promote any games and all
+				developers from all over the world! Any age genres and demographic!
+			</p>
+
+			<p>
+				OUR VISION: To be able to connect developers to beta testing gamers. To
+				be able to voice the common interest of sharing the experience of
+				gaming! From Mobile, PC, and Console!
+			</p>
+			<br />
+			<br />
+
+			<p class="about">
+				About US: Founded by Martez Carr in 2022 a gamer who had a passion about
+				all styles of gaming. We love new ideas, new games, and the experience
+				that everyone gets from trying new games or existing games with added
+				options, perks, and all sorts of additional add-on's. So our company
+				just loves and want to keep the gaming world inspired because making new
+				games in todays time like going to a toy store to pick up and get the
+				newest toys to share with any and everyone!!!
+			</p>
+			<br />
+			<br />
+		</section>
+		<div class="blue container">
+			<h2 class="affiliates">Our Affiliates:</h2>
+			<article class="card">
+				<div class="icons">&#8487;</div>
+				<h3 id="media">Game Source Media</h3>
+				<p>
+					Forum site for discussions and various meet-ups about whats happening
+					in the gaming world
+				</p>
+				<a target="_blank" href="https://www.twitch.tv/sourcecast"
+					><button class="button">SUBSCRIBE</button></a
+				>
+			</article>
+			<article class="card">
+				<div class="icons">&#9874;</div>
+				<h3>Y8.com</h3>
+				<p>
+					Game publisher and Game developer. The Y8 platform is a social network
+					of 30 million players and growing.
+				</p>
+				<a target="_blank" href="https://www.y8.com/"
+					><button class="button">VISIT</button></a
+				>
+			</article>
+		</div>
+		<section>
+			<h2>Gamers By Region</h2>
+			<form id="my-form">
+				<table>
+					<tr>
+						<td>Name</td>
+						<td><input type="text" size="25" name="my-name" /></td>
+					</tr>
+					<tr>
+						<td>Address</td>
+						<td><input type="text" size="25" name="my-address" /></td>
+					</tr>
+					<tr>
+						<td>Game Genre</td>
+						<td>
+							<select name="my-game">
+								<option>FPS</option>
+								<option>RPG</option>
+								<option>PUZZLE</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Gift Cards(s)</td>
+						<td>
+							<input type="number" name="my-qty" value="1" min="1" max="10" />
+							<small>(max 10)</small>
+						</td>
+					</tr>
+					<tr>
+						<br />
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input
+								class="button"
+								type="button"
+								value="Process order"
+								onclick="placeOrder();"
+							/>
+							<input
+								class="button"
+								type="reset"
+								value="Clear"
+								onClick="document.getElementById('my-order').style.display = 'none'"
+								;
+							/>
+						</td>
+					</tr>
+				</table>
+				<br />
+				<div id="my-order"></div>
+			</form>
+		</section>
+		<div class="footer">
+			<h3>Thanks For Gaming with US!</h3>
+			<div class="container">
+				<article class="footer-card">
+					<h3>STAY GAMING</h3>
+					<p class="staygaming">
+						This will the go to source for any updates for gaming, connecting,
+						and releases
+					</p>
+				</article>
+				<article class="footer-card">
+					<h3>Reach Out</h3>
+					<p class="staygaming">
+						We would love to hear your Feedback <br />
+						Call or Email Us <br />
+						TMGaming.gamer@gmail.com <br />
+						Tel: (901)TMGAMER [ (901)864-2637 ]
+					</p>
+				</article>
+			</div>
+			<footer>&copy;2024 TMGaming</footer>
+		</div>
+		<script>
+			console.log("second script");
+			function placeOrder() {
+				var orderForm = document.getElementById("my-form");
+				results = "<h3>Success!</h3> Here is your order.";
+
+				var myName = orderForm.elements["my-name"].value;
+				var myAdd = orderForm.elements["my-address"].value;
+				results += "<br>Name: " + orderForm.elements["my-name"].value;
+				results += "<br>Address: " + orderForm.elements["my-address"].value;
+				results += "<br>Game Genre: " + orderForm.elements["my-game"].value;
+				results +=
+					"<br>Gift Card Quantity: " + orderForm.elements["my-qty"].value;
+				var orderResults = document.getElementById("my-order");
+				orderResults.style.display = "block";
+				orderResults.innerHTML = results;
+			}
+		</script>
+	</body>
+</html>
